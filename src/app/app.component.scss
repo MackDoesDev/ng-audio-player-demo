@@ -1,0 +1,23 @@
+app-visualizer {
+  bottom: 0;
+  height: 128px;
+  position: absolute;
+  width: 960px;
+  z-index: 0;
+}
+
+app-dropzone {
+  bottom: 0;
+  height: 128px;
+  position: absolute;
+  width: 960px;
+  z-index: 1;
+}
+
+app-playlist {
+  bottom: 128px;
+  overflow: auto;
+  position: absolute;
+  top: 224px;
+  width: 960px;
+}

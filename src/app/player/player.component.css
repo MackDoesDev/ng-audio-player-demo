@@ -1,0 +1,24 @@
+.item-info {
+  background-color: rgba(0,0,0,.4);
+  height: 128px;
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  width: 228px;
+}
+
+.buttons {
+  left: 16px;
+  position: absolute;
+  top: 160px;
+}
+
+app-pcmview {
+  background-color: rgba(0,0,0,.4);
+  display: block;
+  height: 128px;
+  position: absolute;
+  right: 16px;
+  top: 16px;
+  width: 684px;
+}

@@ -1,1 +1,27 @@
-/* You can add global styles to this file, and also import other style files */
+@import 'variables';
+@import '../node_modules/font-awesome/scss/font-awesome';
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  background: url('assets/bg.jpg') fixed no-repeat center/cover;
+  color: rgb(230,230,230);
+  font-family: sans-serif;
+}
+
+app-root {
+  background-color: rgba(10,12,27,.9);
+  border: 1px solid rgb(150,150,150);
+  border-radius: 16px;
+  box-shadow: 0 0 2rem rgb(0,0,0);
+  height: 640px;
+  left: 50%;
+  overflow: hidden;
+  position: absolute;
+  top: 50%;
+  transform: translate3d(-50%, -50%, 0);
+  width: 960px;
+}

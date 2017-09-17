@@ -1,0 +1,11 @@
+<div class="item-info">
+  <p>{{currentTitle}}</p>
+</div>
+<app-pcmview></app-pcmview>
+<div class="buttons">
+  <button (click)="onSkipBackward($event)"><i class="fa fa-step-backward"></i></button>
+  <button (click)="onTogglePlay($event)"><i [ngClass]="classesPlayButton"></i></button>
+  <button (click)="onStop($event)"><i class="fa fa-stop"></i></button>
+  <button (click)="onSkipForward($event)"><i class="fa fa-step-forward"></i></button>
+</div>
+
